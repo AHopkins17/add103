@@ -1,0 +1,149 @@
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background gradient for the body */
+body {
+    background: linear-gradient(to right, #ffccbc, #ffe0b2); 
+    font-family: Cambria, serif; 
+}
+
+/* Styling the header */
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Centering the main heading */
+h1 {
+    text-align: center;  
+    margin-bottom: 20px; 
+}
+
+/* Centering section headings */
+h2 {
+    text-align: center;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 15px; 
+}
+
+/* Centering subheadings (h3) */
+h3 {
+    text-align: center;  
+    margin-bottom: 15px; 
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation list */
+nav ul {
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;      
+    display: flex;       
+    justify-content: center;
+}
+
+/* Styling for navigation links */
+nav ul li {
+    margin: 0 10px;
+    
+}
+
+/* Link styling */
+nav ul li a {
+    text-decoration: none; 
+    padding: 10px 15px; 
+    color: white; 
+    transition: background 0.3s, box-shadow 0.3s;
+    text-align: center;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Section styling with border images */
+section {
+    border: 5px solid transparent; 
+    border-image: url('border.png') 30 round; 
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+/* Paragraph styling for spacing */
+p {
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+/* Centering ordered list */
+ul {
+    list-style-type: decimal; 
+    padding: 0;           
+    margin: 0 auto;      
+    max-width: 400px;    
+    display: flex;       
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+/* Flexbox for side-by-side images in gallery */
+.image-container {
+    display: flex;              
+    justify-content: center;    
+    gap: 10px;                 
+}
+
+/* Image styling */
+img {
+    max-width: 25%;            
+    height: auto;              
+    border-radius: 10px;      
+    margin: 10px auto;        
+    display: block;            
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+    border: 5px solid floralwhite; 
+}
+
+/* Scale effect on hover */
+img:hover {
+    transform: scale(1.05);    
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;             
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
