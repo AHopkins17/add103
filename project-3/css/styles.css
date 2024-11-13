@@ -1,0 +1,190 @@
+.arima-Font1{
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.slabo-Font2{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+  
+:root{
+    --dark-blue: #02111B;
+    --gray: #3F4045;
+    --charcoal: #30292F;
+    --teal: #5D737E;
+    --white: #FCFCFC;
+}
+  
+body{
+    font-family: 'Font1', sans-serif;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    margin: 0;
+    padding: 0;
+}
+  
+header, nav, footer{
+    background-color: var(--charcoal);
+    color: var(--white);
+    font-family: 'Font2';
+}
+  
+nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+}
+  
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #30292F;
+    padding: 5px 15px;
+    color: #FCFCFC;
+    border: 3px solid;
+    border-color: #02111B;
+}
+  
+nav a:hover{
+    background-color: #3F4045;
+    color: #FCFCFC;
+}
+  
+main{
+    padding: 20px;
+    background-color: var(--teal);
+  
+}
+  
+h1{
+    font-family: 'Font2', serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+h2{
+    font-family: 'Font2', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+  
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.column{
+    width: 20%;
+}
+.middle{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+img{
+    display: block;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: 5px solid;
+    border-color: #02111B;
+    margin-left: 30px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.page2 h2{
+    text-align: center;
+    margin: 0;
+}
+.page2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: var (--teal);
+    padding: 20px;
+}
+
+.page2 .left-section, 
+.page2 .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%; 
+    text-align: center;
+    background-color: var(--charcoal); 
+    padding: 15px;
+}
+
+.page2 .image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin: 0; 
+    align-items: center;
+}
+
+.page2 .image-grid img{
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border: 5px solid var(--dark-blue);
+    margin-top: 30px;
+    
+}
+
+.page2 p{
+    text-align: left;
+}
+
+
+.page3{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #FCFCFC;
+}
+
+figure{
+    padding: 1px;
+    margin: auto;
+}
+  
+figcaption{
+
+    color: white;
+    font-style: bold;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Pixelbay for all card making images and home images. Also, painting-6 image.*/
