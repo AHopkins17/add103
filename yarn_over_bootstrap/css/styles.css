@@ -1,0 +1,225 @@
+/* General Font and Background */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #EAD7D7;
+    color: #412234;
+}
+/* Header Section */
+.header {
+    background-color: #B49FCC;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.header .left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 80px; /* Increased logo size */
+    width: auto;
+}
+
+.home-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.header .right-section {
+    font-size: 11px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    text-align: center; /* Center the text */
+}
+
+.header .right-section p {
+    margin: 0; /* Remove default margin */
+}
+/* Logo as a circle */
+.logo {
+    width: 70px; /* Set width to desired size */
+    height: 70px; /* Set height to match width */
+    border-radius: 50%; /* Make it a circle */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    
+}
+
+/* Navbar */
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    background-color: #412234; /* Dark background for the navbar */
+}
+
+.navbar .nav-link {
+    color: #412234; /* White text for links */
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 20px; /* Increase margin to space out navbar items */
+}
+
+.navbar .nav-link:hover {
+    color: #B49FCC; /* Light color on hover */
+}
+
+/* Navbar Spacing and Layout */
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+    width: 100%; /* Ensures navbar items span the full width */
+}
+
+/* General Container */
+.container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 785px; /* Max width to make it closer to square */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    color: #6D466B;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Align header to the right corner */
+.text-end {
+    text-align: end; /* Aligns text to the right */
+}
+
+/* Placeholder Images */
+.placeholder-img {
+    background-color: #6D466B;
+    border: 2px dashed #412234;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-image {
+    height: 400px;
+    width: 100%;
+
+}
+
+/* Smaller Images */
+.small-image1 {
+    height: 150px; /* Smaller height for bottom images */
+    width: 100%; /* Take full width */
+}
+
+.small-image2{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+/* Text Styling */
+p {
+    font-size: 17px;
+    color: #412234;
+    line-height: 1.6;
+}
+
+/* Row Adjustments */
+.row {
+    margin-bottom: 30px;
+}
+
+/* Ensure Left-Right Image/Paragraph Order */
+.order-md-1 {
+    order: 1;
+}
+
+.order-md-2 {
+    order: 2;
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    /* When on medium-sized screens or larger, arrange bottom images and paragraphs */
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+/* Footer */
+.footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    background-color: #412234;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+}
+
+ /* Main Content Block */
+ .main-content {
+    background-color: #FFFFFF; /* White background for the block */
+    padding: 40px;
+    margin-top: 40px;
+
+    position: relative; /* Enables absolute positioning inside */
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Corner Images */
+.corner-image {
+    position: absolute;
+    width: 100px; /* Image size */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-top-left {
+    top: -125px;
+    left: -50px;
+}
+
+.image-top-right {
+    top: -125px;
+    right: -50px;
+}
+
+.image-bottom-left {
+    bottom: 40px;
+    left: -50px;
+}
+
+.image-bottom-right {
+    bottom: 40px;
+    right: -50px;
+}
+
+/* Centered Text */
+.centered-content {
+    text-align: center;
+}
+
+
+.centered-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: -90px;
+}
+
+.main-content-1{
+    margin-top: 10px auto;
+}

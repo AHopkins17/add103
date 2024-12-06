@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarn Over - About</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Popover JS (required for Bootstrap popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header d-flex justify-content-between align-items-center px-4 py-3">
+        <div class="left-section d-flex align-items-center">
+            <h1 class="home-title me-2">Yarn Over</h1>
+            <img src="../images/crochet.logo.JPG" alt="Yarn Over Logo" class="img-fluid logo">
+        </div>
+        <div class="right-section text-center">
+            <p class="mb-0">Yarn Over<br>
+            123 Treble Rd.<br>
+            Crochet, IL<br>
+            (815) 714-2428<br>
+            YarnOver@email.com</p>
+        </div>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-2">
+        <div class="container">
+            <!-- Toggler Button for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Yarn Over Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="showcase.html">Showcases</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container mt-5">
+        <!-- Section Title -->
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h2 class="section-title">About Yarn Over</h2>
+            </div>
+        </div>
+
+        <!-- Text Section Before Images -->
+        <p class="text-center">
+            Welcome to Yarn Over, your one-stop shop for all things crochet! Our store is proudly owned and operated by Annette and Katie, two lifelong friends and passionate crocheters. Both Annette and Katie learned to crochet at a young age but rediscovered their love for the craft in their mid-20s. Since then, they’ve been inspired by the endless possibilities crochet offers, creating unique pieces that showcase their hard work and dedication.
+            <br><br>
+            Fueled by their passion for the art of crochet and a shared dream of becoming entrepreneurs, Annette and Katie poured their hearts into building Yarn Over. Their vision was simple: to create a welcoming space for people who just love to crochet! Whether you’re a beginner or an experienced crafter, Yarn Over is here to support your creativity, provide high-quality supplies, and celebrate the crochet community.
+            <br><br>
+            Annette and Katie also believe in giving back to the community that supports their business. They strive to make Yarn Over more than just a store—it’s a hub for creativity, connection, and learning. From hosting classes and monthly showcases to offering personalized advice and inspiration, they aim to help, teach, and provide for crocheters of all skill levels.
+        </p>
+
+        <!-- Grouped Thumbnail Images in a Square Layout -->
+        <div class="image-square d-flex justify-content-center mt-4">
+            <img src="../images/blanket.jpg" alt="Blanket" class="img-thumbnail rounded mx-2" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="../images/friends.jpg" alt="Friends" class="img-thumbnail rounded mx-2" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="../images/flower1-gimp.jpg" alt="Flower" class="img-thumbnail rounded mx-2" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="../images/crocheting.jpg" alt="Crocheting" class="img-thumbnail rounded mx-2" style="width: 150px; height: 150px; object-fit: cover;">
+        </div>
+
+        <!-- Text After Images -->
+        <p class="text-center mt-4">
+            Annette and Katie’s journey has been one of hard work and dedication. They are incredibly proud of what they’ve accomplished and the community they’ve built around Yarn Over. Whether you’re looking to take a class, browse for supplies, or simply connect with other crochet enthusiasts, Yarn Over is here for you.
+        </p>
+
+        <!-- Table for Yarn Over Hours with Popover -->
+        <h3 class="text-center mt-4">Yarn Over Hours</h3>
+        <div class="table-responsive">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Open</th>
+                        <th>Close</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9:00 AM</td>
+                        <td>5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>9:00 AM</td>
+                        <td>5:00 PM</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+            <!-- Popover -->
+            <button type="button" class="btn btn-info" data-bs-toggle="popover" title="Special Hours" data-bs-content="Stop by, explore our selection, and see how Yarn Over can support your crochet journey! Owners are typically in every day during operating hours, aside from holidays or special events. Feel free to call with any questions, thoughts, or concerns.">Additional Information</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center py-3 mt-5">
+        <p>&copy; 2024 Yarn Over. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#" target="_blank">Facebook</a> | 
+            <a href="#" target="_blank">Instagram</a> | 
+            <a href="#" target="_blank">Twitter</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script>
+        // Enable Bootstrap Popover
+        var popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        var popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+</html>
